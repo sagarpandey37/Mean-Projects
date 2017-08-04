@@ -1,0 +1,27 @@
+<center>
+    <h1 class="flash"><strong>August Sale Upto 30% Hurry Up!..... </strong></h1>
+    <input type="text" placeholder="search Items" ng-model="searchItems">
+    <span>Filter</span> <select ng-model="sortby">
+		<option value="name" >Sort by Name</option>    
+		<option value="price" >Sort by Price</option>
+	</select>
+    <table border="2">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Discount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="offer in taboffer.data|filter:searchItems|orderBy:sortby">
+                <td><img ng-src="{{offer.imageurl}}" /></td>
+                <td> {{offer.name}}</td>
+                <td>{{offer.price}}</td>
+                <td>{{offer.discount}}</td>
+            </tr>
+        </tbody>
+    </table>
+    {{error}}
+</center>

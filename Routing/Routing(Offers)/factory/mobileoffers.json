@@ -1,0 +1,15 @@
+[{
+    "id": 1001,
+    "name": "Apple iphone 5s",
+    "discount": "30% OFF",
+    "exoffer": "50% OFF",
+    "price": "₹ 26,395/-",
+    "imageurl": "https://www.telstra.com.au/content/dam/tcom/personal/mobile-phones/images-f/mobile-phones-pc-apple-iphone-5s-grey-grid200.png"
+}, {
+    "id": 1002,
+    "name": "vivo-v5-plus",
+    "discount": "30% OFF",
+    "exoffer": "50% OFF",
+    "price": "₹ 22,990/-",
+    "imageurl": "http://cdn2.gsmarena.com/vv/bigpic/vivo-v5-plus.jpg"
+}]

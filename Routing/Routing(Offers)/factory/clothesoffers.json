@@ -1,0 +1,27 @@
+[{
+    "id": 1001,
+    "name": "Levis 501_RAW Jeans",
+    "discount": "40% OFF",
+    "price": "₹3,455/-",
+    "imageurl": "https://ae01.alicdn.com/kf/HTB1zDrHRpXXXXcBXXXXq6xXFXXX1/2017-font-b-Levi-s-b-font-Fashion-font-b-Men-b-font-short-font-b.jpg"
+
+
+}, {
+    "id": 1002,
+    "name": "Peter England Men's Casual Shirt ",
+    "discount": "40% OFF",
+    "price": "₹ 2,899/-",
+    "imageurl": "http://stat.homeshop18.com/homeshop18/images/productImages/988/300X420_5X7_6d0d96dea7ae49baa063709bf80c8ec5.jpg"
+}, {
+    "id": 1003,
+    "name": "Peter England T-Shirts",
+    "discount": "40% OFF",
+    "price": "₹ 1,599/-",
+    "imageurl": "https://5.imimg.com/data5/TI/NX/GLADMIN-10675315/peter-england-blue-t-shirt-500x500.jpg"
+}, {
+    "id": 1004,
+    "name": "mens-stylish-printed-shirts",
+    "discount": "40% OFF",
+    "price": "₹ 1,599/-",
+    "imageurl": "https://4.imimg.com/data4/DV/PS/MY-24740125/mens-stylish-printed-shirts-250x250.jpg"
+}]

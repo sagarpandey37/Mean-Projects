@@ -1,0 +1,58 @@
+.a {
+    border: none;
+    color: #F0FFFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #a6001a;
+    border-radius: 8px;
+}
+
+#main {
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+tr:hover {
+    background-color: #F0F0F0;
+}
+
+.flash {
+    animation-name: flash;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {
+        color: #F80000;
+    }
+    to {
+        color: #FFFF66;
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Online Bazar</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="libs/angular.min.js"></script>
+    <script src="libs/angular-route.min.js"></script>
+    <script src="appModule/module.js"></script>
+    <script src="config/urlConfig.js"></script>
+    <script src="config/jsonConfig.js"></script>
+    <script src="factory/smartphoneFactory.js"></script>
+    <script src="factory/tabletFactory.js"></script>
+    <script src="factory/clothesFactory.js"></script>
+    <script src="factory/shoesFactory.js"></script>
+    <script src="controller/mobileController.js"></script>
+    <script src="controller/tabletController.js"></script>
+    <script src="controller/clothesController.js"></script>
+    <script src="controller/shoesController.js"></script>
+    <script src="routes/pageRouting.js"></script>
+</head>
+
+<body ng-app="OffersModule">
+    <center>
+        <h1 ng-style="{'color':'#9900CC '}"><strong>Welcome To Online Shopping..........</strong></h1>
+        <a ng-href="#/"><button class="a">Home</button></a>
+        <a ng-href="#/mobile"><button class="a">Smart Phones</button></a>
+        <a ng-href="#/tablet"><button class="a">Tablet</button></a>
+        <a ng-href="#/clothes"><button class="a">Clothes</button></a>
+        <a ng-href="#/shoes"> <button class="a">Shoes</button></a>
+    </center>
+    <center>
+        <div id="main">
+            <ng-view></ng-view>
+        </div>
+
+    </center>
+</body>
+
+</html>

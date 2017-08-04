@@ -1,0 +1,19 @@
+[{
+    "id": 1001,
+    "name": "Nike Casual's",
+    "discount": "30% OFF",
+    "price": "₹ 6,899/-",
+    "imageurl": "http://image3.mouthshut.com/images/imagesp/925792626s.jpg"
+}, {
+    "id": 1002,
+    "name": "Campus Blue Men's",
+    "discount": "30% OFF",
+    "price": "₹ 2,566/-",
+    "imageurl": "http://ecx.images-amazon.com/images/I/41YHl2vtfbL.jpg"
+}, {
+    "id": 1003,
+    "name": "Men's Black Casual",
+    "discount": "30% OFF",
+    "price": "₹ 1,299/-",
+    "imageurl": "https://rukminim1.flixcart.com/image/312/312/shoe/b/j/m/grey-k-1018-black-kraasa-8-original-imae3gghga9zh47z.jpeg?q=70"
+}]
