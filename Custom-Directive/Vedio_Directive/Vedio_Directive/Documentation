@@ -1,0 +1,4 @@
+This vedio directive is madeup by using the vedio Tag of html 5  features
+---------------How To use this--------------------
+1. Inject the videoDirective module in your project.
+use 'spvideo' Attribute level Directive inside the div or other elements where you want to show your video.
