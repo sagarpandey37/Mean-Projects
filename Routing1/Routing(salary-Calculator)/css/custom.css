@@ -1,0 +1,15 @@
+.calcDiv {
+    margin: auto;
+    width: 630px;
+    height: 450px;
+    padding: 10px;
+    float: left;
+}
+
+.taxDiv {
+    margin: auto;
+    width: 630px;
+    height: 450px;
+    padding: 10px;
+    float: right;
+}

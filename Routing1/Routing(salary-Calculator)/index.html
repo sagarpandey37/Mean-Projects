@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advance Salary Calculator</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="libs/angular.min.js"></script>
+    <script src="libs/angular-route.min.js"></script>
+    <script src="module/salaryModule.js"></script>
+    <script src="controller/salaryController.js"></script>
+    <script src="controller/taxController.js"></script>
+    <script src="routes/pageRouting.js"></script>
+    <script src=""></script>
+</head>
+
+<body ng-app="salarymodule">
+    <center>
+        <h1> <strong>Advance Salary Calculator...</strong></h1>
+        <hr>
+        <br>
+        <br>
+        <div class="calcDiv" ng-controller="salarycontroller">
+            <br>
+            <br>
+            <center>
+                <table>
+                    <tr>
+                        <td><label for=""> Enter Your Salary</label></td>
+                        <td><input type="text" ng-model="salary" ng-change="compute()"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">HRA</label></td>
+                        <td><label for="">{{hra}}</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">DA</label></td>
+                        <td><label for="">{{da}}</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">TA</label></td>
+                        <td><label for="">{{ta}}</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">PF</label></td>
+                        <td><label for="">{{pf}}</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">GROSS SALARY</label></td>
+                        <td><label for="">{{gs}}</label></td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr>
+                        <td><a href="#/taxCompute/{{gs}}"><button>ADD DATA</button></a></td>
+                    </tr>
+                </table>
+            </center>
+        </div>
+
+        <div class="taxDiv">
+            <ng-view></ng-view>
+        </div>
+    </center>
+</body>
+
+</html>
