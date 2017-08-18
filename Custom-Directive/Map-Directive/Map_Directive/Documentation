@@ -1,0 +1,6 @@
+This custom map directive is made by using google Map Api's.
+---------------How To use this--------------------
+1. Insert  '<mapcss></mapcss>' Element Level Directive inside the head tag.
+2. Insert the google Api's script inside the head tag i.e  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlJLzC7owStCtQ2v9d8lgn-OtHuohXpBo"> .
+3. Inject the mapDirective module in your project.
+use 'spmaps' Attribute level Directive inside the div or other elements where you want to show your map.
