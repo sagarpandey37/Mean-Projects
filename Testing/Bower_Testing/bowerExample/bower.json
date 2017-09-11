@@ -1,0 +1,22 @@
+{
+  "name": "bowerExample",
+  "authors": [
+    "sagarpandey37 <sagarpandey37@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "bootstrap": "^3.3.7"
+  }
+}
